@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "POSIX signals as a queue",
    "author" : [
       "Mattias Päivärinta <mattias@paivarinta.se>"
    ],
@@ -42,16 +42,31 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "1.01",
+            "Config" : "0",
+            "POSIX" : "1.06",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "Test::Exception" : "0.43",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mattias-p/Signal-Queue/issues"
+      },
+      "homepage" : "https://github.com/mattias-p/Signal-Queue",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/mattias-p/Signal-Queue.git",
+         "web" : "https://github.com/mattias-p/Signal-Queue"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 2.27400",
    "x_static_install" : 1
